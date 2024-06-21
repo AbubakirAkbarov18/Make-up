@@ -1,0 +1,12 @@
+:root {
+    --MainFont: "Inter", sans-serif;
+}
+
+.hero{
+    background-image: url(./hero-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 414px;
+    box-shadow: inset 0px 10px 15px 0px #0000000a,0px 4px 5px 0px #00000026;
+    margin-bottom: 40px;
+}

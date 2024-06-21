@@ -1,0 +1,70 @@
+:root {
+    --MainFont: "Inter", sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+footer {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    position: sticky;
+}
+
+.footer__wrapper {
+    padding: 19px 15px;
+    padding-bottom: 35px;
+    display: flex;
+    margin-bottom: 35px;
+    gap: 65px;
+}
+
+.footer__make-up-shop {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.footer__make-up-shop--head {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 21.83px;
+    font-weight: 400;
+    line-height: 32.64px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__make-up-shop__info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__make-up-shop__info__link {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 14.37px;
+    font-weight: 400;
+    line-height: 21.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__social-media{
+    display: flex;
+    flex-direction: column;
+    margin-left: 119px;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 34px;
+}
+
+.footer__socials > img{
+    cursor: pointer;
+}

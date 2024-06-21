@@ -1,0 +1,125 @@
+:root {
+    --MainFont: "Inter", sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.contact__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 15px ;
+}
+
+.contact__logos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 255px;
+}
+
+.contact__logo-text {
+    font-family: var(--MainFont);
+    color: #ff235c;
+    font-size: 14.3px;
+    font-weight: 400;
+    line-height: 21.43px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.contact__telephone-numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__phone-text {
+    order: 3px solid #ff235c;
+    border-radius: 14px;
+    background: #ff235c;
+    padding: 3px 16px;
+    color: #ffffff;
+    font-family: var(--MainFont);
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 18.57px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contact__phone {
+    text-decoration: none;
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 24.78px;
+    font-weight: 400;
+    line-height: 37.14px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact__working-hours {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__times-text {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.57px;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.contact__working-hours-times {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 24.48px;
+    font-weight: 400;
+    line-height: 37.14px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact__icons {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: end;
+}
+
+.contact__icons-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+}
+
+.contact__icons-socials-language {
+    color: #cbc6c6;
+    font-family: var(--MainFont);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.57px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact__icons-socials-language:hover{
+    color: #ff235c;
+}
+
+.contact__icons-search-and-buy{
+    display: flex;
+    gap: 27px;
+    
+}

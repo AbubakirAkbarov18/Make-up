@@ -1,0 +1,10 @@
+.container {
+    width: 1360px;
+}
+
+.footer-top__wrapper{
+    width: transparent;
+    background-image: url(./footerTop.png);
+    height: 80px;
+    background-size: cover;
+}

@@ -1,0 +1,65 @@
+:root {
+    --MainFont: "Inter", sans-serif;
+}
+
+.options{
+    margin-bottom: 75px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+form {
+    width: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+select {
+    padding: 2px 12px;
+    border: 2px solid #babbbc;
+    background: #ffffff;
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 12.47px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+}
+
+.options__input {
+    padding: 10px 14px;
+    border: 2px solid #babbbc;
+    box-shadow: inset 0px 1px 1px 2px #00000014;
+    background: #ffffff;
+    color: #999999;
+    font-family: var(--MainFont);
+    font-size: 13.23px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    outline: none;
+}
+
+.options__btn {
+    color: #ffffff;
+    font-family: var(--MainFont);
+    font-size: 12.91px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid #ff6161;
+    background: #ff6161;
+    padding: 1px 41px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

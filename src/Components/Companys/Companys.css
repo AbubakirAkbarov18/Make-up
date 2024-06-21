@@ -1,0 +1,10 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.companys__wrapper{
+    display: flex;
+    padding: 29px;
+    gap: 28px;
+}

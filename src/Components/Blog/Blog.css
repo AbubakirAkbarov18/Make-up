@@ -1,0 +1,107 @@
+:root {
+    --MainFont: "Inter", sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.blog__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.blog__heading {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog__square {
+    background-color: #0eebdf;
+    width: 68px;
+    height: 55px;
+    margin-bottom: 3px;
+}
+
+.blog__img {
+    background-image: url(./Horoscop.png);
+    height: 534px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    margin-bottom: 70px;
+    gap: 20px;
+}
+
+.blog__img-head {
+    color: #ffffff;
+    font-family: var(--MainFont);
+    font-size: 45.77px;
+    font-weight: 500;
+    line-height: 59.4px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.blog__img-texts {
+    display: flex;
+    gap: 15px;
+}
+
+.blog__img-text {
+    color: #ffffff;
+    font-family: var(--MainFont);
+    font-size: 14.5px;
+    font-weight: 400;
+    line-height: 27.2px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.blog__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 9.5px;
+}
+
+.blog__info-head {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 20.81px;
+    font-weight: 500;
+    line-height: 26.4px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.blog__info-text {
+    color: rgb(47, 61, 74);
+    font-family: var(--MainFont);
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}

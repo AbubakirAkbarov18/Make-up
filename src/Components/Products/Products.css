@@ -1,0 +1,42 @@
+:root {
+    --MainFont: "Inter", sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.products__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.products__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.products__items-head {
+    color: #262728;
+    font-family: var(--MainFont);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27.5px;
+    letter-spacing: 0%;
+    border-bottom: 8px solid #0eebdf;
+} 
+
+.products__items-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1083px;
+    gap: 35px;
+}
